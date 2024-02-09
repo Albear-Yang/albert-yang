@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import Line1 from '../components/Line1'
 import TitleNav from '../components/NavbarTitle'
 import thumbNail from './aboutpic.png'
+import React from 'react'
 import './About.css'
 function About(){
     return(

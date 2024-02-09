@@ -1,3 +1,4 @@
+import React from 'react'
 import Header from '../components/Header'
 import Line1 from '../components/Line1'
 import TitleNav from '../components/NavbarTitle'
