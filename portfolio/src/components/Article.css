@@ -1,0 +1,13 @@
+.title{
+    font-weight: bold;
+}
+.date{
+    font-size: 1rem;
+    font-style: italic;
+    padding-bottom: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainBody{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1rem;
+}

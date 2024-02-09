@@ -1,0 +1,72 @@
+#what{
+    margin: 1%;
+    padding: 2%;
+    text-align:left;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-between;
+
+    height: min(max(20vw, 15vh), 275px);
+    border: solid;
+    border-color: gray;
+    border-radius: 0.3rem;
+    border-width: 0.15rem;
+}
+
+.projectdesc{
+    margin: 0;
+    color: rgb(11, 0, 59);
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.Description{
+    position:relative;
+    display: flex;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    width: 50%;
+}
+
+.Thumbnail{
+    width: height;
+    height: 100%;
+    display: inline-block;
+    background-color: thistle;
+}
+
+.ProshowTitle{
+    margin-bottom: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: min(1.6rem, 2.3vw);
+    font-weight: 500;
+}
+.ProshowSum{
+    margin: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: min(1rem, 1.3vw);
+}
+.arrow {
+    margin: 0;
+    border: solid black;
+    border-width: 0 min(0.1rem, 0.2vw) min(0.1rem, 0.2vw) 0;
+    display: inline-block;
+    padding: min(0.3rem, 0.3vw);
+}
+.right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+.contLink{
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    font-size: min(1rem, 1.4vw);
+    color: rgb(0, 0, 91);
+    text-decoration: none;
+
+}
+  

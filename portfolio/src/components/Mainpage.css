@@ -1,0 +1,47 @@
+.sideNav{
+
+    padding: 1%;
+    margin-right: 5%;
+    margin: 1%;
+    overflow:hidden;
+    position: inline-block;
+    float: right;
+    flex: 3;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.mainPage{
+    padding: 2%;
+    position: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+#mostrecent{
+    flex:7;
+}
+.stockForcast{
+    height: 30%;
+    text-align: center;
+    border: solid;
+    border-width: 3px;
+    background-color: white;
+    margin-bottom: 15%;
+}
+@media only screen and (max-width: 600px) {
+    .mainPage{
+      display: block;
+    }
+    .sideNav{
+        padding: 1%;
+        margin-top: 5%;
+        float: right;
+        position: block;
+
+    }
+}

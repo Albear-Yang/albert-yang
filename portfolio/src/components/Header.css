@@ -1,0 +1,21 @@
+header.top{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.top-child{
+    color: black;
+}
+a.top-child{
+    text-decoration:none;
+    color: black;
+
+}
+#top-title{
+    font-size: 2rem;
+    font-family: Amiri, Georgia, "Times New Roman", serif;
+}
