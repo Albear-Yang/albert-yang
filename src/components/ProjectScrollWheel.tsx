@@ -4,6 +4,7 @@ import './ProjectScrollWheel.css'
 import Desmos from './DesmosThumb.png'
 import Automata from './AutomataThumb.png'
 import Fourier from './FourierThumb.png'
+import React from 'react';
 function ProScrolldiv(){
     const start = useRef<null | HTMLDivElement>(null);
     function useIsInViewport(ref: any) {
